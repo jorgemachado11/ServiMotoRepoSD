@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\ServiMoto.Server.csproj": {}
+    "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\ServiMoto.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\ServiMoto.Server.csproj": {
+    "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\ServiMoto.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\ServiMoto.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\ServiMoto.Server.csproj",
         "projectName": "ServiMoto.Server",
-        "projectPath": "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\ServiMoto.Server.csproj",
+        "projectPath": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\ServiMoto.Server.csproj",
         "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\obj\\",
+        "outputPath": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

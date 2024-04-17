@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+s/eQR8OVZE18zqYUYABLAb3qLqZLiHZeQR2EZTbfatK8ErQ6W0A4EGcAaA9hRSpr7bsNoir2yPN6JLx1UD9yQ==",
+  "dgSpecHash": "VNBik0KMfDTiouWM74CcSD/gxbPMsnMBrLsYSQmfqB/btqqG2Ndq/E49SLVZFjzrHnzXhxGOQy0rwm27saD/ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jorge\\Desktop\\ServiMoto\\ServiMoto\\ServiMoto\\ServiMoto.Server\\ServiMoto.Server.csproj",
+  "projectFilePath": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\ServiMoto.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
     "C:\\Users\\Jorge\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",

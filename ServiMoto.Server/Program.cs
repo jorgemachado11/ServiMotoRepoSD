@@ -85,6 +85,7 @@ class Program
 
                             csvReaderService.WriteTasks($"C:\\Users\\Jorge\\Downloads\\{service}.csv", tasks);
                             SendResponse(stream, $"UPDATE_CONFIRMED,ID:{taskId}");
+                            tasks = csvReaderService.ReadTasks(service);
                         }
                         else
                         {
@@ -108,7 +109,7 @@ class Program
                         if (taskToAllocate == null)
                             SendResponse(stream, "ERROR: Task does not exist!");
 
-                        if (taskToAllocate.Status == "Nao alocado")
+                        if (taskToAllocate.Status != "Nao alocado")
                             SendResponse(stream, "ERROR: Task is already Allocated!");
 
                         if (taskToAllocate != null)
@@ -117,6 +118,7 @@ class Program
                             taskToAllocate.ClientId = clientId;
                             csvReaderService.WriteTasks($"C:\\Users\\Jorge\\Downloads\\{service}.csv", tasks);
                             SendResponse(stream, $"Task Allocated and 'Em Curso'");
+                            tasks = csvReaderService.ReadTasks(service);
                         }
                         else
                         {

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}|ServiMoto.Server\\ServiMoto.Server.csproj|c:\\users\\jorge\\source\\repos\\servimotoreposd\\servimoto.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}|ServiMoto.Server\\ServiMoto.Server.csproj|solutionrelative:servimoto.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1229C604-D818-4FE4-BE78-9CA2CE684DE5}|ServiMoto.Client\\ServiMoto.Client.csproj|c:\\users\\jorge\\source\\repos\\servimotoreposd\\servimoto.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1229C604-D818-4FE4-BE78-9CA2CE684DE5}|ServiMoto.Client\\ServiMoto.Client.csproj|solutionrelative:servimoto.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ServiMoto.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Server\\Program.cs",
+              "RelativeToolTip": "ServiMoto.Server\\Program.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAUwHgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:54:08.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Client\\Program.cs",
+              "RelativeDocumentMoniker": "ServiMoto.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Jorge\\source\\repos\\ServiMotoRepoSD\\ServiMoto.Client\\Program.cs",
+              "RelativeToolTip": "ServiMoto.Client\\Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAUwD4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:51:10.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
