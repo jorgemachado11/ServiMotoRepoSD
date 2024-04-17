@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiMoto.Server", "ServiMoto.Server\ServiMoto.Server.csproj", "{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiMoto.Client", "ServiMoto.Client\ServiMoto.Client.csproj", "{1229C604-D818-4FE4-BE78-9CA2CE684DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C045C733-8BD4-4BB9-8979-56C0D46D4EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1229C604-D818-4FE4-BE78-9CA2CE684DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1229C604-D818-4FE4-BE78-9CA2CE684DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1229C604-D818-4FE4-BE78-9CA2CE684DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1229C604-D818-4FE4-BE78-9CA2CE684DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0106476E-D0AF-43D8-B5DC-41CC3E029D24}
+	EndGlobalSection
+EndGlobal
