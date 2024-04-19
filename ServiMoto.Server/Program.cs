@@ -10,6 +10,7 @@ class Program
 
     private static Mutex fileMutex = new Mutex();
     private static CsvReaderService csvReaderService = new CsvReaderService(fileMutex);
+    private static string allocationsPath = "C:\\Users\\Jorge\\Downloads\\Alocacao_Cliente_Servico.csv";
 
     static void Main(string[] args)
     {
@@ -18,7 +19,7 @@ class Program
         listener.Start();
         Console.WriteLine("Server is listening on port 8888...");
 
-        clientAllocations = csvReaderService.ReadClientAllocations("C:\\Users\\Jorge\\Downloads\\Alocacao_Cliente_Servico.csv");
+        clientAllocations = csvReaderService.ReadClientAllocations(allocationsPath);
 
         // Accept clients in a loop
         while (true)
@@ -52,15 +53,17 @@ class Program
                     var clientAllocation = clientAllocations.Where(f => f.ClientId == clientId)
                         .FirstOrDefault();
 
-                    service = clientAllocation.ServiceId;
-                    tasks = csvReaderService.ReadTasks(service);
-
-                    string response = "100 OK \n Tasks:";
-
-                    foreach (var t in tasks)
+                    if (clientAllocation == null)
                     {
-                        response += "\n" + t.TaskId + " " + t.Status;
+                        //Allocate client to a Service
+                        csvReaderService.AssociateUserToService(allocationsPath, clientId, "Servico_A");
+                        service = "Servico_A";
                     }
+                    else
+                        service = clientAllocation.ServiceId;
+
+
+                    string response = "100 OK";
 
                     SendResponse(stream, response);
                 }
@@ -74,6 +77,8 @@ class Program
                     fileMutex.WaitOne();
                     try
                     {
+                        tasks = csvReaderService.ReadTasks(service);
+
                         var parts = request.Split(',');
                         var taskId = parts[1].Split(':')[1];
                         var status = parts[2].Split(':')[1];
@@ -97,33 +102,21 @@ class Program
                         fileMutex.ReleaseMutex();
                     }
                 }
-                else if (request.StartsWith("REQUEST_TASK,ID:"))
+                else if (request.StartsWith("REQUEST_TASK"))
                 {
                     fileMutex.WaitOne();
                     try
                     {
-                        var parts = request.Split(',');
-                        var taskId = parts[1].Split(':')[1];
-
-                        var taskToAllocate = tasks.FirstOrDefault(t => t.TaskId == taskId);
+                        tasks = csvReaderService.ReadTasks(service);
+                        var taskToAllocate = tasks.FirstOrDefault(f => f.Status == "Nao alocado");
                         if (taskToAllocate == null)
-                            SendResponse(stream, "ERROR: Task does not exist!");
+                            SendResponse(stream, "ERROR: There are no Tasks to be allocated!");
 
-                        if (taskToAllocate.Status != "Nao alocado")
-                            SendResponse(stream, "ERROR: Task is already Allocated!");
-
-                        if (taskToAllocate != null)
-                        {
-                            taskToAllocate.Status = "em curso";
-                            taskToAllocate.ClientId = clientId;
-                            csvReaderService.WriteTasks($"C:\\Users\\Jorge\\Downloads\\{service}.csv", tasks);
-                            SendResponse(stream, $"Task Allocated and 'Em Curso'");
-                            tasks = csvReaderService.ReadTasks(service);
-                        }
-                        else
-                        {
-                            SendResponse(stream, "ERROR: No task available");
-                        }
+                        taskToAllocate.Status = "em curso";
+                        taskToAllocate.ClientId = clientId;
+                        csvReaderService.WriteTasks($"C:\\Users\\Jorge\\Downloads\\{service}.csv", tasks);
+                        SendResponse(stream, $"Task Allocated and 'Em Curso'");
+                        tasks = csvReaderService.ReadTasks(service);
                     }
                     finally
                     {

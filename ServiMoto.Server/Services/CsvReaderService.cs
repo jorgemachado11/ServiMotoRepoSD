@@ -1,4 +1,5 @@
 ﻿using ServiMoto.Server.Models;
+using System.Threading.Tasks;
 
 namespace ServiMoto.Server.Services
 {
@@ -21,7 +22,7 @@ namespace ServiMoto.Server.Services
                     TaskId = parts[0],
                     Description = parts[1],
                     Status = parts[2],
-                    ClientId = parts[3] 
+                    ClientId = parts[3]
                 })
                 .ToList();
         }
@@ -32,7 +33,7 @@ namespace ServiMoto.Server.Services
 
             var allocations = File.ReadAllLines(filePath).Skip(1);// Skip the header line
 
-            foreach(var a in allocations)
+            foreach (var a in allocations)
             {
                 var splitted = a.Split(",");
 
@@ -46,6 +47,22 @@ namespace ServiMoto.Server.Services
             }
 
             return list;
+        }
+
+        public void AssociateUserToService(string filePath, string clientIdToAllocate, string serviceToBeAllocated)
+        {
+            var allocations = ReadClientAllocations(filePath);
+
+            var csvLines = new List<string> { "ClienteID,ServicoID" };
+
+            foreach(var a in allocations)
+            {
+                var line = $"{a.ClientId},{a.ServiceId}";
+                csvLines.Add(line);
+            }
+
+            csvLines.Add($"{clientIdToAllocate},{serviceToBeAllocated}");
+            File.WriteAllLines(filePath, csvLines);
         }
 
         public void WriteTasks(string filePath, List<Models.Task> tasks)

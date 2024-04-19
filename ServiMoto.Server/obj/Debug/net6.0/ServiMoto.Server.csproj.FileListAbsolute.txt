@@ -42,3 +42,17 @@ C:\Users\Jorge\source\repos\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\re
 C:\Users\Jorge\source\repos\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.pdb
 C:\Users\Jorge\source\repos\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.genruntimeconfig.cache
 C:\Users\Jorge\source\repos\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ref\ServiMoto.Server.dll
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\bin\Debug\net6.0\ServiMoto.Server.exe
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\bin\Debug\net6.0\ServiMoto.Server.deps.json
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\bin\Debug\net6.0\ServiMoto.Server.runtimeconfig.json
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\bin\Debug\net6.0\ServiMoto.Server.dll
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\bin\Debug\net6.0\ServiMoto.Server.pdb
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.AssemblyInfoInputs.cache
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.AssemblyInfo.cs
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.csproj.CoreCompileInputs.cache
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.dll
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\refint\ServiMoto.Server.dll
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.pdb
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ServiMoto.Server.genruntimeconfig.cache
+C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\obj\Debug\net6.0\ref\ServiMoto.Server.dll

@@ -48,9 +48,7 @@ namespace ServiMoto.Client
                             break;
                         case "2":
                             // Request New Task
-                            Console.WriteLine("Enter Task ID:");
-                            string taskToRequestId = Console.ReadLine();
-                            SendRequest(stream, $"REQUEST_TASK,ID:{taskToRequestId}");
+                            SendRequest(stream, $"REQUEST_TASK");
                             ReadResponse(stream);
                             break;
                         case "3":

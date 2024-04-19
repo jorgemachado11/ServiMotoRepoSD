@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiMoto.Server
-build_property.ProjectDir = C:\Users\Jorge\source\repos\ServiMotoRepoSD\ServiMoto.Server\
+build_property.ProjectDir = C:\Users\luis.teixeira\Downloads\ServiMotoRepoSD\ServiMotoRepoSD\ServiMoto.Server\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

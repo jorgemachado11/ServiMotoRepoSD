@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServiMoto.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61c32e5ff5861d89a4b1065885c40a995f9e3ec9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiMoto.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServiMoto.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
